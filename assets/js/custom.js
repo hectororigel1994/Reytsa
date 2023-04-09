@@ -85,6 +85,32 @@
           }
     })
 
+
+
+    $('.owl-products').owlCarousel({
+      items:4,
+      loop:true,
+      dots: true,
+      nav: true,
+      autoplay: true,
+      margin:30,
+        responsive:{
+            0:{
+                items:1
+            },
+            700:{
+                items:1
+            },
+            1000:{
+                items:1
+            },
+            1600:{
+                items:1
+            }
+        }
+  })
+
+
     
 
 	// Menu Dropdown Toggle
